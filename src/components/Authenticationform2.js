@@ -5,7 +5,7 @@ export default function Authenticationform2() {
     const [showPassword, setShowPassword] = useState(false);
     const [showConfirm, setShowConfirm] = useState(false);
 
-    return <section className="flex flex-col items-center justify-center min-h-screen font-sans p-4 bg-primary ">
+    return <section className="flex flex-col md:flex-row justify-center font-sans p-4 bg-primary shadow-md ">
     
       <div>
       <div className="p-6 w-full max-w-sm mb-6">
